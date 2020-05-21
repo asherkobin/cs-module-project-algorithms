@@ -1,7 +1,7 @@
 #  *. `single_number`
-#  2. `moving_zeroes`
-#  3. `product_of_array_except_self`
-#  4. `sliding_window_max`
+#  *. `moving_zeroes`
+#  *. `product_of_array_except_self`
+#  *. `sliding_window_max` 
 #  *. `eating_cookies`
 
 
