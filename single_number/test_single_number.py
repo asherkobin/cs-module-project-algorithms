@@ -1,6 +1,6 @@
 import unittest
 import random
-from single_number import single_number
+from single_number import single_number_better
 
 class Test(unittest.TestCase):
     def test_single_number(self):
@@ -14,7 +14,7 @@ class Test(unittest.TestCase):
         rand_index = random.randint(0, len(arr))
         num = arr.pop(rand_index)
 
-        self.assertEqual(single_number(arr), num)
+        self.assertEqual(single_number_better(arr), num)
 
 
 if __name__ == '__main__':
